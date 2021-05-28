@@ -38,10 +38,18 @@
             width: 63px;
             height: 40px;
             margin-top: 10px;
+            font-size: 25px;
         }
         
         #areatela input {
             width: 320px;
             height: 60px;
             font-size: 35px;
+        }
+        
+        form {
+            border: solid 2px;
+            padding: 20px;
+            width: 400px;
+            border-radius: 10px;
         }
