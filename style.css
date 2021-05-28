@@ -1,0 +1,47 @@
+        /*primeiro organizar os numeros*/
+        
+        input {
+            border-radius: 5px;
+        }
+        
+        .op {
+            display: block;
+        }
+        
+        #operacoes,
+        #numeros {
+            display: inline-block;
+            margin-top: 10px;
+        }
+        
+        .box input {
+            width: 60px;
+            height: 60px;
+            font-size: 30px;
+        }
+        
+        #operacoes input {
+            width: 60px;
+            height: 60px;
+            font-size: 30px;
+        }
+        
+        #calculo input {
+            width: 190px;
+            height: 70px;
+            font-size: 25px;
+            display: block;
+            margin-right: 100px;
+        }
+        
+        #expressoes input {
+            width: 63px;
+            height: 40px;
+            margin-top: 10px;
+        }
+        
+        #areatela input {
+            width: 320px;
+            height: 60px;
+            font-size: 35px;
+        }
