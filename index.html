@@ -6,48 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>calculadora</title>
+    <title>calculadora point-click</title>
 </head>
 
 <aside>
     <form>
-
+        <h1>calc-1.0</h1>
         <div id="areatela">
-            <h1>calc-1.0</h1>
-            <input type="number" id="tela">
+
         </div>
         <div id="expressoes">
-            <input type="button" value="." id="virgula" class="exp">
-            <input type="button" value="(" id="abre_parenteses" class="exp">
-            <input type="button" value=")" id="fecha_parenteses" class="exp">
-            <input type="button" value="x^" id="potencia" class="exp">
-            <input type="button" value="√" id="raiz_quadrada" class="exp">
-            <input type="button" value="%" id="porcentagem" class="exp">
+            <input type="button" value="." id="virgula" class="exp" onclick="digitar(this.value)">
+            <input type="button" value="(" id="abre_parenteses" class="exp" onclick="digitar(this.value)">
+            <input type="button" value=")" id="fecha_parenteses" class="exp" onclick="digitar(this.value)">
+            <input type="button" value="^" id="potencia" class="exp" onclick="digitar(this.value)">
+            <input type="button" value="√" id="raiz_quadrada" class="exp" onclick="digitar(this.value)">
+            <input type="button" value="%" id="porcentagem" class="exp" onclick="digitar(this.value)">
 
         </div>
 
         <div id="numeros">
             <div class="box">
-                <input type="button" value="1">
-                <input type="button" value="2">
-                <input type="button" value="3">
+                <input type="button" value="1" onclick="digitar(this.value)">
+                <input type="button" value="2" onclick="digitar(this.value)">
+                <input type="button" value="3" onclick="digitar(this.value)">
             </div>
             <div class="box">
-                <input type="button" value="4">
-                <input type="button" value="5">
-                <input type="button" value="6">
+                <input type="button" value="4" onclick="digitar(this.value)">
+                <input type="button" value="5" onclick="digitar(this.value)">
+                <input type="button" value="6" onclick="digitar(this.value)">
 
             </div>
             <div class="box">
-                <input type="button" value="7">
-                <input type="button" value="8">
-                <input type="button" value="9">
+                <input type="button" value="7" onclick="digitar(this.value)">
+                <input type="button" value="8" onclick="digitar(this.value)">
+                <input type="button" value="9" onclick="digitar(this.value)">
 
             </div>
             <div class="box" id="zero">
-                <input type="button" value="0">
+                <input type="button" value="0" onclick="digitar(this.value)">
                 <div id="calculo">
-                    <input type="button" value="calcule" id="calcule">
+                    <input type="button" value="calcule" id="calcule" onclick="calcular()">
                 </div>
 
             </div>
@@ -56,12 +55,16 @@
         <div id="operacoes">
 
 
-            <input type="button" value="+" id="somar" class="op">
-            <input type="button" value="-" id="subtrair" class="op">
-            <input type="button" value="*" id="multiplicar" class="op">
-            <input type="button" value="/" id="dividir" class="op">
+            <input type="button" value="+" id="somar" class="op" onclick="digitar(this.value)">
+            <input type="button" value="-" id="subtrair" class="op" onclick="digitar(this.value)">
+            <input type="button" value="*" id="multiplicar" class="op" onclick="digitar(this.value)">
+            <input type="button" value="/" id="dividir" class="op" onclick="digitar(this.value)">
         </div>
 
+        <div id="limpar_apagar">
+
+            <input type="button" value="limpar" class="al" onclick="limpar()">
+        </div>
 
     </form>
 </aside>
@@ -69,7 +72,7 @@
     <p>por Isaías Santos</p>
     <address>nitéroi-rj</address>
 </footer>
-
+<script src="script.js"></script>
 
 <body>
 
