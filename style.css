@@ -1,83 +1,99 @@
-        * {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        /*primeiro organizar os numeros*/
-        
-        input {
-            border-radius: 5px;
-        }
-        
-        #operacoes input:hover,
-        #numeros input:hover,
-        #expressoes input:hover {
-            background-color: rgb(150, 150, 150);
-        }
-        
-        .op {
-            display: block;
-        }
-        
-        #operacoes,
-        #numeros,
-        #calculo {
-            display: inline-block;
-            margin: 0%;
-        }
-        
-        .box input {
-            width: 60px;
-            height: 60px;
-            font-size: 30px;
-        }
-        
-        #operacoes input {
-            width: 60px;
-            height: 60px;
-            font-size: 30px;
-        }
-        
-        #calculo input {
-            width: 123px;
-            height: 60px;
-            font-size: 25px;
-        }
-        
-        #expressoes input {
-            width: 38.5px;
-            height: 45px;
-            margin-top: 10px;
-            font-size: 25px;
-        }
-        
-        #areatela input {
-            width: 320px;
-            height: 60px;
-            font-size: 35px;
-        }
-        
-        form {
-            border: solid 2px;
-            padding: 20px;
-            width: 350px;
-            border-radius: 10px;
-            background-color: rgb(200, 200, 200);
-            margin-left: 30%;
-        }
-        
-        #zero {
-            width: 60px;
-            display: inline;
-        }
-        
-        #calculo {
-            width: 90px;
-            height: 70px;
-        }
-        
-        #areatela h1 {
-            font-size: 30px;
-            text-align: center;
-            color: rgb(50, 50, 50);
-            background-color: gray;
-            border-radius: 15px;
-        }
+                    * {
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    /*primeiro organizar os numeros*/
+                    
+                    input {
+                        border-radius: 5px;
+                    }
+                    
+                    #operacoes input:hover,
+                    #numeros input:hover,
+                    #expressoes input:hover {
+                        background-color: rgb(150, 150, 150);
+                    }
+                    
+                    .op {
+                        display: block;
+                    }
+                    
+                    #operacoes,
+                    #numeros,
+                    #calculo {
+                        display: inline-block;
+                        margin: 0%;
+                    }
+                    
+                    .box input {
+                        width: 60px;
+                        height: 60px;
+                        font-size: 30px;
+                    }
+                    
+                    #operacoes input {
+                        width: 60px;
+                        height: 60px;
+                        font-size: 30px;
+                    }
+                    
+                    #calculo input {
+                        width: 123px;
+                        height: 60px;
+                        font-size: 25px;
+                    }
+                    
+                    #expressoes input {
+                        width: 38.5px;
+                        height: 45px;
+                        margin-top: 10px;
+                        font-size: 25px;
+                    }
+                    
+                    #areatela input {
+                        width: 320px;
+                        height: 60px;
+                        font-size: 35px;
+                    }
+                    
+                    form {
+                        border: solid 2px;
+                        padding: 20px;
+                        width: 350px;
+                        border-radius: 10px;
+                        background-color: rgb(200, 200, 200);
+                        margin-left: 30%;
+                    }
+                    
+                    #zero {
+                        width: 60px;
+                        display: inline;
+                    }
+                    
+                    #calculo {
+                        width: 90px;
+                        height: 70px;
+                    }
+                    
+                    #areatela h1 {
+                        font-size: 30px;
+                        text-align: center;
+                        color: rgb(50, 50, 50);
+                        background-color: gray;
+                        border-radius: 15px;
+                    }
+                    
+                    body {
+                        background-image: url("background.jpg");
+                        background-repeat: re;
+                        width: 100%;
+                    }
+                    
+                    footer {
+                        background-color: grey;
+                        width: 300px;
+                        border: solid 1px;
+                        border-radius: 15px;
+                        text-align: center;
+                        padding: 10px;
+                        text-shadow: 4px 4px 4px black;
+                    }
