@@ -8,21 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <title>calculadora</title>
 </head>
-<header>
-    <h1>calculadora </h1>
-    <nav>
-        <ul>
-            <li><a href="#">criador</a></li>
-            <li><a href="#">como usar</a></li>
-        </ul>
 
-    </nav>
-</header>
 <aside>
     <form>
 
         <div id="areatela">
-            <h3>calcule</h3>
+            <h1>calc-1.0</h1>
             <input type="number" id="tela">
         </div>
         <div id="expressoes">
@@ -31,43 +22,46 @@
             <input type="button" value=")" id="fecha_parenteses" class="exp">
             <input type="button" value="x^" id="potencia" class="exp">
             <input type="button" value="√" id="raiz_quadrada" class="exp">
+            <input type="button" value="%" id="porcentagem" class="exp">
 
         </div>
 
-        <div id=numeros>
+        <div id="numeros">
             <div class="box">
-                <input type="button" value="0">
                 <input type="button" value="1">
                 <input type="button" value="2">
+                <input type="button" value="3">
             </div>
             <div class="box">
-                <input type="button" value="3">
                 <input type="button" value="4">
                 <input type="button" value="5">
+                <input type="button" value="6">
 
             </div>
             <div class="box">
-                <input type="button" value="6">
                 <input type="button" value="7">
                 <input type="button" value="8">
+                <input type="button" value="9">
 
             </div>
-            <div class="box">
-                <input type="button" value="9">
+            <div class="box" id="zero">
+                <input type="button" value="0">
+                <div id="calculo">
+                    <input type="button" value="calcule" id="calcule">
+                </div>
+
             </div>
         </div>
 
-
         <div id="operacoes">
+
 
             <input type="button" value="+" id="somar" class="op">
             <input type="button" value="-" id="subtrair" class="op">
             <input type="button" value="*" id="multiplicar" class="op">
             <input type="button" value="/" id="dividir" class="op">
         </div>
-        <div id="calculo">
-            <input type="button" value="calcule" id="calcule">
-        </div>
+
 
     </form>
 </aside>
