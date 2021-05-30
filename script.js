@@ -18,16 +18,7 @@ function digitar(caracter) {
     }
 }
 
-function apagar() {
-    if (conta == "") {
-        draw.innerHTML = "<i>vazio</i>";
-    } else {
 
-        conta = conta.replace(n, " ");
-        draw.innerHTML = conta;
-    }
-
-}
 
 function limpar() {
     if (conta == "") {
