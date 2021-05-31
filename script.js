@@ -1,3 +1,4 @@
+alert("a calculadora é point-click, use o mouse para escrever! ")
 var n;
 var resolucao = false;
 var conta = String("");
