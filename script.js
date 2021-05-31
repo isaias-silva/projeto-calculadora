@@ -18,8 +18,6 @@ function digitar(caracter) {
     }
 }
 
-
-
 function limpar() {
     if (conta == "") {
         draw.innerHTML = "<i>vazio</i>";
@@ -33,7 +31,17 @@ function calcular() {
     conta = conta.replace("%", "/100");
     conta = conta.replace("^", "**");
 
-    form = eval(conta);
-    draw.innerHTML = form;
-    conta = String(form);
+    if (conta.length > 15) {
+        conta.length = 13;
+
+        form = eval(conta); //função
+
+        draw.innerHTML = form;
+        conta = String(form);
+    } else {
+        form = eval(conta); //função
+
+        draw.innerHTML = form;
+        conta = String(form);
+    }
 }
